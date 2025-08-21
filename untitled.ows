@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Color" qualified_name="Orange.widgets.data.owcolor.OWColor" project_name="Orange3" version="" title="Color" position="(150, 150)" />
+		<node id="1" name="Paint Data" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" project_name="Orange3" version="" title="Paint Data" position="(300, 150)" />
+	</nodes>
+	<links />
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'auto_apply': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xc2\x00\x00\x00\xa6\x00\x00\x04\xb9\x00\x00\x03\x05\x00\x00\x02\xc4\x00\x00\x00\xca\x00\x00\x04\xb7\x00\x00\x03\x03\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xc4\x00\x00\x00\xca\x00\x00\x04\xb7\x00\x00\x03\x03', 'selected_schema_index': 0, '__version__': 2, 'context_settings': []}</properties>
+		<properties node_id="1" format="literal">{'attr1': 'x', 'attr2': 'y', 'autocommit': True, 'brushRadius': 75, 'controlAreaVisible': False, 'data': [[0.4495745817197121, 0.3112479797704051, 0.0]], 'density': 7, 'hasAttr2': True, 'labels': ['C1', 'C2'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x0b\x00\x00\x00j\x00\x00\x05D\x00\x00\x03A\x00\x00\x03\r\x00\x00\x00\x8e\x00\x00\x05B\x00\x00\x03?\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03\r\x00\x00\x00\x8e\x00\x00\x05B\x00\x00\x03?', 'symbol_size': 10, 'table_name': 'Painted data', '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
