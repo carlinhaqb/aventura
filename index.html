@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".css">
-    <title>aventura da carla</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Aventura da Carla</title>
 </head>
+
 <body>
     <main>
-        <div>
+        <div class="passo ativo" id="passo-0">
             <p>
-                um dia desses, dentro de um livro da biblioteca da escola,eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais.Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidir segui-las.</p> 
+                um dia desses, dentro de um livro da biblioteca da escola,eu descobri uma carta antiga sobre uma cidade
+                perdida, escondida por riquezas e belezas naturais.Nessa carta, a autora deixa algumas pistas para
+                encontrar essa cidade e eu decidir segui-las.</p>
 
-                <button>paranaguá</button>
-                <button>curitiba</button>
-    
-            
+            <button class="btn-proximo" data-proximo="1">paranaguá</button>
+            <button class="btn proximo" data-proximo="2">curitiba</button>
+
         </div>
-        <div>
+        <div class="passo" id=passo-1">
             <p>
                 Voce começa sua jornada em Paranaguá,ela é linda, ao amanhecer para encontrar a primeira pista.
             </p>
-            <button>procurar a pista no topo do pico</button>
-            <button>dessitir e voltar para casa</button>
+            <button class="btn proximo" data proximo="3">procurar a pista no topo do pico</button>
+            <button class="btn proximo" data proximo="4">dessitir e voltar para casa</button>
         </div>
+
+
+
+        
     </main>
 </body>
+
 </html>
